@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Interactive Skill Showcase">
+        <meta name="keywords" content="CV, showcase, Interview">
+        <meta name="author" content="Michell Jagec">
+        <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style-herosection.css">
+        <link rel="stylesheet" href="style/style-skillsection.css">
+        <link rel="stylesheet" href="style/style-contactsection.css">
+    </head>
+    <body>
+
+        <audio autoplay loop id="background-audio">
+            <source src="style/img/background.mp3" type="audio/mpeg" volume="0.1"/>
+          </audio>
+          <script>
+            setVolume = document.getElementById("background-audio");
+            setVolume.volume=0.1;
+        </script>
+        
+        <!-- HERO SECTION -->
+        <container class="wrapper-hero-section">
+        <img src="style/img/giphy.gif" id="background-gif">
+
+            <!-- HERO SECTION LEFT --> 
+            <div class="hero-section-left">
+                <img src="style/img/deco-img-left.svg" id="deco-image-left">
+                <h1 id="text-top-hs">HELLO</h1>
+                <img src="style/img/rocket-logo 1.svg" id="barb-logo">
+                <img src="style/img/radio_button_checked.svg" id="dot">
+                <label id="deco-text-01-left">BUILD A ROCKET BOY, EDINBURGH</label>
+                <label id="deco-text-02-left">55.975770125729284, -3.1661602480669133</label>
+                <h1 id="text-middle-hs">I'M MICHELL</h1>
+                <label id="text-bottom-hs">WELCOME TO MY INTERACTIVE SKILL OVERVIEW</label>
+                <p id="paragraph-01-hs">This website is a fun and interactive way to present my skillset and experience  that would be beneficial in this role, scroll to find out more.</p>
+            </div>
+
+            <!-- HERO SECTION RIGHT -->
+            <div class="hero-section-right">
+                <img src="style/img/hero-section-right.svg" id="background-image-right">
+                <p id="console-text-01">[michell@barb ~]$</p>
+                <div class="anim-wrapper">
+                    <p class="line typing">neofetch</p>
+                </div>
+                <img src="style/img/neofetch-splash.svg" id="neofetch-splash">
+                <p class="splash-new-line" id="console-text-02">[michell@barb ~]$</p>
+                <div class="anim-wrapper2">
+                    <p class="line2 typing2">cd <span id="deco-interior">/skills</p></span>
+                </div>
+                <p class="splash-new-line-02" id="console-text-03">[michell@barb skills]$</p>
+                <div class="anim-wrapper3">
+                    <p class="line3 typing3">ls <span id="deco-interior">-a</p></span>
+                </div>
+                <img src="style/img/splash-skills.svg" id="splash-skills">
+            </div>
+
+        </container>
+
+        <!-- SKILLS SECTION -->
+        <container class="skills-container">
+
+            <!-- SKILL SECTION TOP -->
+            <div class="skills-top-section">
+                <img src="style/img/deco-img-left-02.svg">
+                <h1 id="skills-text-01">ABOUT ME</h1>
+                <h1 id="skills-text-02">SKILLS OVERVIEW</h1>
+                <p id="skills-text-03">LIST OF SKILLS AND BRIEF EXPLANATION</p>
+            </div>
+
+            <!-- SKILL SECTION OVERVIEW -->
+            <div class="skills-main-section">
+
+                <div class="skill-container-01">
+                    <img src="style/img/skill-01.svg" id="skill-img-01">
+                    <h1 id="skill-title-01">LINUX</h1>
+                    <p id="skill-desc-01">I've been honing my Linux skills since 2020, starting with Ubuntu but soon transitioned to Arch Linux. I now have a thorough grasp of the command line interface, partitions, and file systems. I've built custom systems and become proficient in using tiling window managers. I've also refined my ability to configure .ini files to customize my environment.</p>
+                    <a href="https://github.com/michell-dev/archstation-dotfiles/tree/master/.config" id="skill-link-01" target="_blank" rel="noopener">[click here to see aspects of my customized code]</a>
+                </div>
+
+                <div class="skill-container-02">
+                    <img src="style/img/skill-02.svg" id="skill-img-02">
+                    <h1 id="skill-title-02">WINDOWS</h1>
+                    <p id="skill-desc-02">From an early age, I began my journey with Windows, initially introduced to the operating system and its basic functionalities through Windows 95 and floppy disks, courtesy of my father. As I grew older, I developed a wide range of skills and a deep understanding of the OS, as well as its most popular third-party programs. Through troubleshooting both personal and family issues, I also discovered a passion for helping others.</p>
+                </div>
+
+
+                <div class="skill-container-03">
+                    <img src="style/img/skill-03.svg" id="skill-img-03">
+                    <h1 id="skill-title-03">WEB DEVELOPMENT</h1>
+                    <p id="skill-desc-03">My passion for web development has driven me to continuously develop my skills in HTML, CSS, SASS, JS, and Bootstrap. Through self study, attending a boot camp, and leveraging open-source resources such as FreeCodeCamp.org, I have achieved significant proficiency in these technologies. This ongoing learning process has not only honed my technical skills but also sharpened my critical thinking and logical abilities.</p>
+                    <a href="https://github.com/michell-dev/HudWeather" id="skill-link-02" target="_blank" rel="noopener">[click here to see code of one of my projects]</a>
+                </div>
+
+
+                <div class="skill-container-04">
+                    <img src="style/img/skill-04.svg" id="skill-img-04">
+                    <h1 id="skill-title-04">VIRTUALIZATION</h1>
+                    <p id="skill-desc-04">As part of my professional development, I have honed my virtualization skills through experimentation with multiple virtualization software platforms such as VM-Ware and QEMU. I possess experience in virtualizing both Windows and Linux images,including intermediate techniques, such as vfio / single GPU passthrough, to achieve optimal performance and functionality.</p>
+                </div>
+
+                <div class="skill-container-05">
+                    <img src="style/img/skill-05.svg" id="skill-img-05">
+                    <h1 id="skill-title-05">COMMAND LINE INTERFACES</h1>
+                    <p id="skill-desc-05">I have developed strong skills in using CLIs for troubleshooting and general use, and have gained comprehensive knowledge of basic shell commands, including file system navigation, file manipulation, and process management. This foundational expertise has enabled me to interact more efficiently and effectively with complex systems, I believe this skill would be helpful in assisting more senior staff members.</p>
+                </div>
+
+                <div class="skill-container-06">
+                    <img src="style/img/skill-06.svg" id="skill-img-06">
+                    <h1 id="skill-title-06">PC ASSEMBLY</h1>
+                    <p id="skill-desc-06">Through my experience in building PC systems and workstations, I have developed an understanding of the intricate components that make up these complex systems. I have always maintained a focus on adhering to safe standards and staying up-to-date with the latest cutting-edge components to ensure that my builds are both usable and ergonomically optimized.</p>
+                    <a href="https://imgur.com/a/78eYxfj" id="skill-link-03" target="_blank" rel="noopener">[click here to see my latest personal build]</a>
+                </div>
+
+                <div class="skill-container-07">
+                    <img src="style/img/skill-07.svg" id="skill-img-07">
+                    <h1 id="skill-title-07">GAMMING AFFINITY</h1>
+                    <p id="skill-desc-07">As a passionate gamer, I possess extensive experience and proficiency across various gaming titles and genres. Furthermore, I have a deep understanding of the diverse gaming communities and platforms, including popular platforms such as Steam and Epic Games. I believe that my personal hobby and interest in gaming aligns well with the company culture.</p>
+                </div>
+
+                <div class="skill-container-08">
+                    <img src="style/img/skill-08.svg" id="skill-img-08">
+                    <h1 id="skill-title-08">ROOM TO GROW</h1>
+                    <p id="skill-desc-08">I always strive to learn more and grow continuosly.</p>
+                </div>
+            </div>
+        </container>
+
+        <!-- CONTACT SECTION -->
+        <container class="contact-section">
+            <div class="contact-section-left">
+                <img src="style/img/deco-img-left-03.svg">
+                <h1 id="contact-text-01">CLOSING</h1>
+                <h1 id="contact-text-02">CONTACT ME</h1>
+                <p id="contact-text-03">[michell@barb ~]$ ping buildarocketboy.com</p>
+                <p id="contact-text-04">If you believe I would be a good match for this position please don’t hesitate to contact as I’m always looking for opportunities to gain experience and grow professionally, I would appreciate any feedback!</p>
+                <img src="style/img/email-icon.svg" id="email-icon"><span id="email-text">michell.jagec@gmail.com</span>
+                <a href="https://github.com/michell-dev" target="_blank" rel="noopener"><img src="style/img/github-icon.svg" id="github-icon"></a><span id="github-text">GitHub</span>
+                <a href="https://www.docdroid.net/KeNfuny/cv-michell-jagec-0103-1-pdf" target="_blank" rel="noopener"><img src="style/img/cv-icon.svg" id="cv-icon"></a><span id="cv-text">Download CV</span>
+            </div>
+            <div class="contact-section-right">
+                <img src="style/img/giphy2.gif" id="background-gif-contact">
+            </div>
+        </container>
+    </body>
+</HTML>

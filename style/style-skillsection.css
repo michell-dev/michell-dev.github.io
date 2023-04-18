@@ -1,0 +1,245 @@
+/**
+*
+* Testing
+*
+**/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* FONTS *\ */
+/* COLOURS *\     */
+html {
+  scroll-behaviour: smooth;
+}
+
+body {
+  height: 100vh;
+  background: #0A1C2D;
+  font-family: "Inter", sans-serif;
+  color: #99BDC6;
+}
+body .skills-container {
+  display: inline-block;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  top: 1080px;
+}
+@media (min-width: 1930px) {
+  body .skills-container {
+    top: 2160px;
+    height: 2160px;
+    width: 100vw;
+  }
+}
+@media (max-width: 1336px) {
+  body .skills-container {
+    top: 720px;
+    height: 720px;
+  }
+}
+body .skills-container .skills-top-section {
+  position: absolute;
+  width: 609px;
+  height: 243px;
+  left: 150px;
+  top: 80px;
+}
+@media (min-width: 1930px) {
+  body .skills-container .skills-top-section {
+    transform: scale(2);
+    left: 600px;
+    top: 240px;
+  }
+}
+@media (max-width: 1336px) {
+  body .skills-container .skills-top-section {
+    transform: scale(0.8);
+    left: 0px;
+  }
+}
+body .skills-container .skills-top-section #skills-text-01 {
+  position: absolute;
+  margin: 0;
+  width: 331px;
+  height: 58px;
+  top: -10px;
+  left: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.35em;
+  color: #99BDC6;
+}
+body .skills-container .skills-top-section #skills-text-02 {
+  position: absolute;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  left: 40px;
+  top: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.35em;
+  color: #99BDC6;
+}
+body .skills-container .skills-top-section #skills-text-03 {
+  position: absolute;
+  height: 19px;
+  left: 40px;
+  top: 79px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.5px;
+  line-height: 16px;
+  letter-spacing: 0.6em;
+  color: #99BDC6;
+}
+body .skills-container .skills-main-section {
+  position: absolute;
+  width: 1540px;
+  height: 622px;
+  left: 190px;
+  top: 392px;
+}
+@media (min-width: 1930px) {
+  body .skills-container .skills-main-section {
+    transform: scale(2);
+    left: 1120px;
+    top: 1000px;
+  }
+}
+@media (max-width: 1336px) {
+  body .skills-container .skills-main-section {
+    transform: scale(0.7);
+    left: -135px;
+    top: 150px;
+  }
+}
+body .skills-container .skills-main-section .skill-container-01, body .skills-container .skills-main-section .skill-container-02, body .skills-container .skills-main-section .skill-container-03, body .skills-container .skills-main-section .skill-container-04, body .skills-container .skills-main-section .skill-container-05, body .skills-container .skills-main-section .skill-container-06,
+body .skills-container .skills-main-section .skill-container-07, body .skills-container .skills-main-section .skill-container-08 {
+  position: absolute;
+  width: 438px;
+  height: 188px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(17.5px);
+          backdrop-filter: blur(17.5px);
+  border: 1px solid #608C9E;
+}
+body .skills-container .skills-main-section .skill-container-01 #skill-img-01, body .skills-container .skills-main-section .skill-container-01 #skill-img-02, body .skills-container .skills-main-section .skill-container-01 #skill-img-03, body .skills-container .skills-main-section .skill-container-01 #skill-img-04, body .skills-container .skills-main-section .skill-container-01 #skill-img-05, body .skills-container .skills-main-section .skill-container-01 #skill-img-06, body .skills-container .skills-main-section .skill-container-01 #skill-img-07, body .skills-container .skills-main-section .skill-container-01 #skill-img-08, body .skills-container .skills-main-section .skill-container-02 #skill-img-01, body .skills-container .skills-main-section .skill-container-02 #skill-img-02, body .skills-container .skills-main-section .skill-container-02 #skill-img-03, body .skills-container .skills-main-section .skill-container-02 #skill-img-04, body .skills-container .skills-main-section .skill-container-02 #skill-img-05, body .skills-container .skills-main-section .skill-container-02 #skill-img-06, body .skills-container .skills-main-section .skill-container-02 #skill-img-07, body .skills-container .skills-main-section .skill-container-02 #skill-img-08, body .skills-container .skills-main-section .skill-container-03 #skill-img-01, body .skills-container .skills-main-section .skill-container-03 #skill-img-02, body .skills-container .skills-main-section .skill-container-03 #skill-img-03, body .skills-container .skills-main-section .skill-container-03 #skill-img-04, body .skills-container .skills-main-section .skill-container-03 #skill-img-05, body .skills-container .skills-main-section .skill-container-03 #skill-img-06, body .skills-container .skills-main-section .skill-container-03 #skill-img-07, body .skills-container .skills-main-section .skill-container-03 #skill-img-08, body .skills-container .skills-main-section .skill-container-04 #skill-img-01, body .skills-container .skills-main-section .skill-container-04 #skill-img-02, body .skills-container .skills-main-section .skill-container-04 #skill-img-03, body .skills-container .skills-main-section .skill-container-04 #skill-img-04, body .skills-container .skills-main-section .skill-container-04 #skill-img-05, body .skills-container .skills-main-section .skill-container-04 #skill-img-06, body .skills-container .skills-main-section .skill-container-04 #skill-img-07, body .skills-container .skills-main-section .skill-container-04 #skill-img-08, body .skills-container .skills-main-section .skill-container-05 #skill-img-01, body .skills-container .skills-main-section .skill-container-05 #skill-img-02, body .skills-container .skills-main-section .skill-container-05 #skill-img-03, body .skills-container .skills-main-section .skill-container-05 #skill-img-04, body .skills-container .skills-main-section .skill-container-05 #skill-img-05, body .skills-container .skills-main-section .skill-container-05 #skill-img-06, body .skills-container .skills-main-section .skill-container-05 #skill-img-07, body .skills-container .skills-main-section .skill-container-05 #skill-img-08, body .skills-container .skills-main-section .skill-container-06 #skill-img-01, body .skills-container .skills-main-section .skill-container-06 #skill-img-02, body .skills-container .skills-main-section .skill-container-06 #skill-img-03, body .skills-container .skills-main-section .skill-container-06 #skill-img-04, body .skills-container .skills-main-section .skill-container-06 #skill-img-05, body .skills-container .skills-main-section .skill-container-06 #skill-img-06, body .skills-container .skills-main-section .skill-container-06 #skill-img-07, body .skills-container .skills-main-section .skill-container-06 #skill-img-08,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-01,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-02,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-03,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-04,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-05,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-06,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-07,
+body .skills-container .skills-main-section .skill-container-07 #skill-img-08, body .skills-container .skills-main-section .skill-container-08 #skill-img-01, body .skills-container .skills-main-section .skill-container-08 #skill-img-02, body .skills-container .skills-main-section .skill-container-08 #skill-img-03, body .skills-container .skills-main-section .skill-container-08 #skill-img-04, body .skills-container .skills-main-section .skill-container-08 #skill-img-05, body .skills-container .skills-main-section .skill-container-08 #skill-img-06, body .skills-container .skills-main-section .skill-container-08 #skill-img-07, body .skills-container .skills-main-section .skill-container-08 #skill-img-08 {
+  position: absolute;
+  top: 14px;
+  left: 27px;
+}
+body .skills-container .skills-main-section .skill-container-01 #skill-title-01, body .skills-container .skills-main-section .skill-container-01 #skill-title-02, body .skills-container .skills-main-section .skill-container-01 #skill-title-03, body .skills-container .skills-main-section .skill-container-01 #skill-title-04, body .skills-container .skills-main-section .skill-container-01 #skill-title-05, body .skills-container .skills-main-section .skill-container-01 #skill-title-06, body .skills-container .skills-main-section .skill-container-01 #skill-title-07, body .skills-container .skills-main-section .skill-container-01 #skill-title-08, body .skills-container .skills-main-section .skill-container-02 #skill-title-01, body .skills-container .skills-main-section .skill-container-02 #skill-title-02, body .skills-container .skills-main-section .skill-container-02 #skill-title-03, body .skills-container .skills-main-section .skill-container-02 #skill-title-04, body .skills-container .skills-main-section .skill-container-02 #skill-title-05, body .skills-container .skills-main-section .skill-container-02 #skill-title-06, body .skills-container .skills-main-section .skill-container-02 #skill-title-07, body .skills-container .skills-main-section .skill-container-02 #skill-title-08, body .skills-container .skills-main-section .skill-container-03 #skill-title-01, body .skills-container .skills-main-section .skill-container-03 #skill-title-02, body .skills-container .skills-main-section .skill-container-03 #skill-title-03, body .skills-container .skills-main-section .skill-container-03 #skill-title-04, body .skills-container .skills-main-section .skill-container-03 #skill-title-05, body .skills-container .skills-main-section .skill-container-03 #skill-title-06, body .skills-container .skills-main-section .skill-container-03 #skill-title-07, body .skills-container .skills-main-section .skill-container-03 #skill-title-08, body .skills-container .skills-main-section .skill-container-04 #skill-title-01, body .skills-container .skills-main-section .skill-container-04 #skill-title-02, body .skills-container .skills-main-section .skill-container-04 #skill-title-03, body .skills-container .skills-main-section .skill-container-04 #skill-title-04, body .skills-container .skills-main-section .skill-container-04 #skill-title-05, body .skills-container .skills-main-section .skill-container-04 #skill-title-06, body .skills-container .skills-main-section .skill-container-04 #skill-title-07, body .skills-container .skills-main-section .skill-container-04 #skill-title-08, body .skills-container .skills-main-section .skill-container-05 #skill-title-01, body .skills-container .skills-main-section .skill-container-05 #skill-title-02, body .skills-container .skills-main-section .skill-container-05 #skill-title-03, body .skills-container .skills-main-section .skill-container-05 #skill-title-04, body .skills-container .skills-main-section .skill-container-05 #skill-title-05, body .skills-container .skills-main-section .skill-container-05 #skill-title-06, body .skills-container .skills-main-section .skill-container-05 #skill-title-07, body .skills-container .skills-main-section .skill-container-05 #skill-title-08, body .skills-container .skills-main-section .skill-container-06 #skill-title-01, body .skills-container .skills-main-section .skill-container-06 #skill-title-02, body .skills-container .skills-main-section .skill-container-06 #skill-title-03, body .skills-container .skills-main-section .skill-container-06 #skill-title-04, body .skills-container .skills-main-section .skill-container-06 #skill-title-05, body .skills-container .skills-main-section .skill-container-06 #skill-title-06, body .skills-container .skills-main-section .skill-container-06 #skill-title-07, body .skills-container .skills-main-section .skill-container-06 #skill-title-08,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-01,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-02,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-03,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-04,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-05,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-06,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-07,
+body .skills-container .skills-main-section .skill-container-07 #skill-title-08, body .skills-container .skills-main-section .skill-container-08 #skill-title-01, body .skills-container .skills-main-section .skill-container-08 #skill-title-02, body .skills-container .skills-main-section .skill-container-08 #skill-title-03, body .skills-container .skills-main-section .skill-container-08 #skill-title-04, body .skills-container .skills-main-section .skill-container-08 #skill-title-05, body .skills-container .skills-main-section .skill-container-08 #skill-title-06, body .skills-container .skills-main-section .skill-container-08 #skill-title-07, body .skills-container .skills-main-section .skill-container-08 #skill-title-08 {
+  position: absolute;
+  margin: 0;
+  left: 59px;
+  top: 18px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.35em;
+}
+body .skills-container .skills-main-section .skill-container-01 #skill-desc-01, body .skills-container .skills-main-section .skill-container-01 #skill-desc-02, body .skills-container .skills-main-section .skill-container-01 #skill-desc-03, body .skills-container .skills-main-section .skill-container-01 #skill-desc-04, body .skills-container .skills-main-section .skill-container-01 #skill-desc-05, body .skills-container .skills-main-section .skill-container-01 #skill-desc-06, body .skills-container .skills-main-section .skill-container-01 #skill-desc-07, body .skills-container .skills-main-section .skill-container-01 #skill-desc-08, body .skills-container .skills-main-section .skill-container-02 #skill-desc-01, body .skills-container .skills-main-section .skill-container-02 #skill-desc-02, body .skills-container .skills-main-section .skill-container-02 #skill-desc-03, body .skills-container .skills-main-section .skill-container-02 #skill-desc-04, body .skills-container .skills-main-section .skill-container-02 #skill-desc-05, body .skills-container .skills-main-section .skill-container-02 #skill-desc-06, body .skills-container .skills-main-section .skill-container-02 #skill-desc-07, body .skills-container .skills-main-section .skill-container-02 #skill-desc-08, body .skills-container .skills-main-section .skill-container-03 #skill-desc-01, body .skills-container .skills-main-section .skill-container-03 #skill-desc-02, body .skills-container .skills-main-section .skill-container-03 #skill-desc-03, body .skills-container .skills-main-section .skill-container-03 #skill-desc-04, body .skills-container .skills-main-section .skill-container-03 #skill-desc-05, body .skills-container .skills-main-section .skill-container-03 #skill-desc-06, body .skills-container .skills-main-section .skill-container-03 #skill-desc-07, body .skills-container .skills-main-section .skill-container-03 #skill-desc-08, body .skills-container .skills-main-section .skill-container-04 #skill-desc-01, body .skills-container .skills-main-section .skill-container-04 #skill-desc-02, body .skills-container .skills-main-section .skill-container-04 #skill-desc-03, body .skills-container .skills-main-section .skill-container-04 #skill-desc-04, body .skills-container .skills-main-section .skill-container-04 #skill-desc-05, body .skills-container .skills-main-section .skill-container-04 #skill-desc-06, body .skills-container .skills-main-section .skill-container-04 #skill-desc-07, body .skills-container .skills-main-section .skill-container-04 #skill-desc-08, body .skills-container .skills-main-section .skill-container-05 #skill-desc-01, body .skills-container .skills-main-section .skill-container-05 #skill-desc-02, body .skills-container .skills-main-section .skill-container-05 #skill-desc-03, body .skills-container .skills-main-section .skill-container-05 #skill-desc-04, body .skills-container .skills-main-section .skill-container-05 #skill-desc-05, body .skills-container .skills-main-section .skill-container-05 #skill-desc-06, body .skills-container .skills-main-section .skill-container-05 #skill-desc-07, body .skills-container .skills-main-section .skill-container-05 #skill-desc-08, body .skills-container .skills-main-section .skill-container-06 #skill-desc-01, body .skills-container .skills-main-section .skill-container-06 #skill-desc-02, body .skills-container .skills-main-section .skill-container-06 #skill-desc-03, body .skills-container .skills-main-section .skill-container-06 #skill-desc-04, body .skills-container .skills-main-section .skill-container-06 #skill-desc-05, body .skills-container .skills-main-section .skill-container-06 #skill-desc-06, body .skills-container .skills-main-section .skill-container-06 #skill-desc-07, body .skills-container .skills-main-section .skill-container-06 #skill-desc-08,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-01,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-02,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-03,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-04,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-05,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-06,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-07,
+body .skills-container .skills-main-section .skill-container-07 #skill-desc-08, body .skills-container .skills-main-section .skill-container-08 #skill-desc-01, body .skills-container .skills-main-section .skill-container-08 #skill-desc-02, body .skills-container .skills-main-section .skill-container-08 #skill-desc-03, body .skills-container .skills-main-section .skill-container-08 #skill-desc-04, body .skills-container .skills-main-section .skill-container-08 #skill-desc-05, body .skills-container .skills-main-section .skill-container-08 #skill-desc-06, body .skills-container .skills-main-section .skill-container-08 #skill-desc-07, body .skills-container .skills-main-section .skill-container-08 #skill-desc-08 {
+  position: absolute;
+  margin: 0;
+  width: 384px;
+  height: 118px;
+  left: 27px;
+  right: 27px;
+  top: 48px;
+  bottom: 22px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 163.02%;
+  /* or 16px */
+  letter-spacing: 0.13em;
+}
+body .skills-container .skills-main-section .skill-container-01 #skill-link-01, body .skills-container .skills-main-section .skill-container-01 #skill-link-02, body .skills-container .skills-main-section .skill-container-01 #skill-link-03, body .skills-container .skills-main-section .skill-container-02 #skill-link-01, body .skills-container .skills-main-section .skill-container-02 #skill-link-02, body .skills-container .skills-main-section .skill-container-02 #skill-link-03, body .skills-container .skills-main-section .skill-container-03 #skill-link-01, body .skills-container .skills-main-section .skill-container-03 #skill-link-02, body .skills-container .skills-main-section .skill-container-03 #skill-link-03, body .skills-container .skills-main-section .skill-container-04 #skill-link-01, body .skills-container .skills-main-section .skill-container-04 #skill-link-02, body .skills-container .skills-main-section .skill-container-04 #skill-link-03, body .skills-container .skills-main-section .skill-container-05 #skill-link-01, body .skills-container .skills-main-section .skill-container-05 #skill-link-02, body .skills-container .skills-main-section .skill-container-05 #skill-link-03, body .skills-container .skills-main-section .skill-container-06 #skill-link-01, body .skills-container .skills-main-section .skill-container-06 #skill-link-02, body .skills-container .skills-main-section .skill-container-06 #skill-link-03,
+body .skills-container .skills-main-section .skill-container-07 #skill-link-01,
+body .skills-container .skills-main-section .skill-container-07 #skill-link-02,
+body .skills-container .skills-main-section .skill-container-07 #skill-link-03, body .skills-container .skills-main-section .skill-container-08 #skill-link-01, body .skills-container .skills-main-section .skill-container-08 #skill-link-02, body .skills-container .skills-main-section .skill-container-08 #skill-link-03 {
+  position: absolute;
+  width: 306px;
+  height: 18px;
+  left: 27px;
+  top: 150px;
+  bottom: 26px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 163.02%;
+  /* or 16px */
+  letter-spacing: 0.13em;
+  color: #35596C;
+}
+body .skills-container .skills-main-section .skill-container-01 #skill-link-02, body .skills-container .skills-main-section .skill-container-02 #skill-link-02, body .skills-container .skills-main-section .skill-container-03 #skill-link-02, body .skills-container .skills-main-section .skill-container-04 #skill-link-02, body .skills-container .skills-main-section .skill-container-05 #skill-link-02, body .skills-container .skills-main-section .skill-container-06 #skill-link-02,
+body .skills-container .skills-main-section .skill-container-07 #skill-link-02, body .skills-container .skills-main-section .skill-container-08 #skill-link-02 {
+  top: 163px;
+}
+body .skills-container .skill-container-01:hover, body .skills-container .skill-container-02:hover, body .skills-container .skill-container-03:hover, body .skills-container .skill-container-04:hover, body .skills-container .skill-container-05:hover, body .skills-container .skill-container-06:hover,
+body .skills-container .skill-container-07:hover, body .skills-container .skill-container-08:hover {
+  z-index: 1;
+  width: 500px;
+  transform: scale(1.4);
+  transition: ease 1.5s;
+}
+body .skills-container .skill-container-02 {
+  top: 220px;
+}
+body .skills-container .skill-container-03 {
+  top: 440px;
+}
+body .skills-container .skill-container-04 {
+  left: 550px;
+}
+body .skills-container .skill-container-05 {
+  left: 550px;
+  top: 220px;
+}
+body .skills-container .skill-container-06 {
+  left: 550px;
+  top: 440px;
+}
+body .skills-container .skill-container-07 {
+  left: 1100px;
+}
+body .skills-container .skill-container-08 {
+  left: 1100px;
+  top: 220px;
+}/*# sourceMappingURL=style-skillsection.css.map */
