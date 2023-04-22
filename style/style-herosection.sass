@@ -1,0 +1,481 @@
+@import 'viewports.scss'
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+/* FONTS *\
+$primary-font: 'Inter', sans-serif
+$secondary-font: 'Azeret Mono', sans-serif
+
+/* COLOURS *\    
+$main-colour: #0A1C2D
+$accent-colour: #608C9E
+$accent-colour-02: #35596C
+$text-colour: #99BDC6
+
+#background-gif
+    opacity: 0.01
+    height: 100%
+    width: 60%
+
+    margin-left: auto
+    margin-right: auto
+    display: block
+
+
+html
+    scroll-behaviour: smooth
+
+body
+    height: 100vh
+    background: $main-colour
+    font-family: $primary-font
+    color: $text-colour
+
+
+
+.wrapper-hero-section
+    position: absolute
+    width: 100vw
+    height: 100vh
+
+    @include media(">=1930px")
+        height: 2160px
+        width: 100vw
+    
+    @include media("<=1366px")
+        height: 720px
+        width: 100vw
+
+
+    .hero-section-left
+        position: absolute
+        width: 481px
+        height: 243px
+        left: 350px
+        top: 40%
+
+        @include media(">=1930px")
+            transform: scale(2.0)
+            left: 950px
+            top: 45%
+
+        @include media("<=1366px")
+            transform: scale(0.8)
+            left: 175px
+            top: 35%
+
+        animation: opacity-reg-02 1s steps(1000) 0.5s 1 normal both
+
+        @keyframes opacity-reg-02 
+            from 
+                opacity:0 
+
+            to 
+                opacity: 1   
+
+
+        #deco-image-left
+            position: absolute
+            left: -45px
+            height: 120px
+
+
+        #text-top-hs
+            position: absolute
+
+            left: 0px
+            top: -35px
+
+            font-style: normal
+            font-weight: 300
+            font-size: 40px
+            line-height: 48px
+            letter-spacing: 0.35em
+
+        #barb-logo
+            position: absolute
+            left: 190px
+            animation: spin 2s linear infinite
+
+            @keyframes spin 
+                from
+                    transform: rotateY(0deg)
+                to  
+                    transform: rotateY(359deg)
+            
+
+
+            
+
+        #dot
+            position: absolute
+            top: 10px
+            left: 220px
+
+            animation: blinkDot 1s steps(2) infinite normal
+
+            @keyframes blinkDot
+                from 
+                    opacity: 0.5
+                to 
+                    opacity: 1
+                
+
+        #deco-text-01-left
+            z-index: 1
+            position: absolute
+            top: 9px
+            left: 235px
+            width: 200px
+            height: 15px
+
+            font-style: normal
+            font-weight: 300
+            font-size: 7px  
+            letter-spacing: 0.15em
+
+            white-space: nowrap
+            overflow: hidden
+ 
+            animation: typewriter1 2s steps(55) 1s 1 normal both
+        
+            @keyframes typewriter1 
+                from 
+                    width: 0 
+
+                to 
+                    width: 200px    
+
+
+        #deco-text-02-left
+            position: absolute
+            top: 20px
+            height: 10px
+            left: 235px
+
+            font-style: normal
+            font-weight: 300
+            font-size: 7px  
+            letter-spacing: 0.15em
+
+            white-space: nowrap
+            overflow: hidden
+ 
+            animation: typewriter2 2s steps(55) 3s 1 normal both
+        
+            @keyframes typewriter2 
+                from 
+                    width: 0 
+
+                to 
+                    width: 200px    
+
+        #text-middle-hs
+            position: absolute
+            top: 17px
+            left: 0px
+
+            font-style: normal
+            font-weight: 700
+            font-size: 44.4px
+            line-height: 48px
+            letter-spacing: 0.35em 
+
+        #text-bottom-hs
+            position: absolute
+            top: 106px
+            left: 0px
+
+            font-style: normal
+            font-weight: 300
+            font-size: 14.9px
+            line-height: 16px
+            letter-spacing: 0.13em 
+
+        #paragraph-01-hs
+            position: absolute
+            top: 140px
+            width: 370px
+
+            font-style: normal
+            font-weight: 300
+            font-size: 13.5px
+            line-height: 22px
+            letter-spacing: 0.13em
+
+            animation: opacity-reg-01 2s steps(55) 5s 1 normal both
+        
+            @keyframes opacity-reg-01 
+                from 
+                    opacity:0 
+
+                to 
+                    opacity: 1   
+
+
+    .hero-section-right
+        position: absolute
+        width: 486px
+        height: 538px
+        left: 1112px
+        top: 260px
+
+        @include media(">=1930px")
+            transform: scale(2.0)
+            left: 65%
+            top: 37%
+
+        @include media("<=1366px")
+            transform: scale(0.8)
+            left: 700px
+            top: 95px
+    
+        animation: opacity-reg-03 1s steps(1000) 8s 1 normal both
+
+        @keyframes opacity-reg-03 
+            from 
+                opacity:0 
+
+            to 
+                opacity: 1   
+
+        #console-text-01
+            position: absolute
+            widows: 223px
+            left: 30px
+            top: 50px
+
+            font-family: $secondary-font
+            font-style: normal
+            font-weight: 400
+            font-size: 11px
+            line-height: 13px
+            letter-spacing: 0.05em
+
+        
+        .anim-wrapper
+            display: flex
+            justify-content: center
+            align-items: center
+
+            p
+                position: absolute
+                top: 50px
+                left: 170px
+
+                font-family: $secondary-font
+                color: $accent-colour
+                font-weight: 700
+                font-size: 11px
+
+            .line 
+                position: absolute
+                border-right: 4px solid #142535
+                width: 100px
+                white-space: nowrap
+                overflow: hidden
+
+            .typing 
+                animation: typewriter 1s steps(8) 12s 1 normal both, blinkCursor 0.5s steps(2) 30 normal
+            
+        
+
+
+            @keyframes typewriter 
+                from 
+                    width: 0
+                
+
+                to 
+                    width: 60px
+
+
+
+            @keyframes blinkCursor 
+                from 
+                    border-right-color: rgba(96, 140, 158, 1)
+                
+
+                to 
+                    border-right-color: rgba(96, 140, 158, 0)
+                
+        #neofetch-splash
+            position: absolute
+            top: 100px
+            left: 62px
+            
+            animation: splash 1s steps(20)  15s 1 normal both
+
+            @keyframes splash
+                from 
+                    opacity: 0 
+                to 
+                    opacity: 1
+                           
+        
+        #console-text-02
+            position: absolute
+            widows: 223px
+            left: 30px
+            top: 250px
+
+            font-family: $secondary-font
+            font-style: normal
+            font-weight: 400
+            font-size: 11px
+            line-height: 13px
+            letter-spacing: 0.05em
+
+        
+        .splash-new-line
+            animation: opacity-reg-04 1s steps(20) 15s 1 normal both
+
+            @keyframes opacity-reg-04 
+                from 
+                    opacity:0 
+
+                to 
+                    opacity: 1 
+
+        .anim-wrapper2
+            display: flex
+            justify-content: center
+            align-items: center
+
+            p
+                position: absolute
+                top: 250px
+                left: 170px
+
+                font-family: $secondary-font
+                color: $accent-colour
+                font-weight: 700
+                font-size: 11px
+
+                #deco-interior
+
+                    font-family: $secondary-font
+                    color: $accent-colour
+                    font-weight: 400
+                    font-size: 11px
+
+            .line2 
+                position: absolute
+                border-right: 4px solid #142535
+                width: 10px
+                white-space: nowrap
+                overflow: hidden
+
+            .typing2 
+                animation: typewriter3 1s steps(8) 16s 1 normal both, blinkCursor3 0.5s steps(2) 16s 5 normal
+            
+        
+
+
+            @keyframes typewriter3 
+                from 
+                    width: 0
+                
+
+                to 
+                    width: 73px
+
+
+
+            @keyframes blinkCursor3 
+                from 
+                    border-right-color: rgba(96, 140, 158, 1)
+                
+
+                to 
+                    border-right-color: rgba(96, 140, 158, 0)
+
+        #console-text-03
+            position: absolute
+            widows: 223px
+            left: 30px
+            top: 300px
+
+            font-family: $secondary-font
+            font-style: normal
+            font-weight: 400
+            font-size: 11px
+            line-height: 13px
+            letter-spacing: 0.05em
+
+        
+        .splash-new-line-02
+            animation: opacity-reg-05 1s steps(20) 19s 1 normal both
+
+            @keyframes opacity-reg-05 
+                from 
+                    opacity:0 
+
+                to 
+                    opacity: 1                    
+
+        .anim-wrapper3
+            display: flex
+            justify-content: center
+            align-items: center
+
+            p
+                position: absolute
+                top: 300px
+                left: 207px
+
+                font-family: $secondary-font
+                color: $accent-colour
+                font-weight: 700
+                font-size: 11px
+
+                #deco-interior
+
+                    font-family: $secondary-font
+                    color: $accent-colour
+                    font-weight: 400
+                    font-size: 11px
+
+            .line3 
+                position: absolute
+                border-right: 4px solid #142535
+                width: 10px
+                white-space: nowrap
+                overflow: hidden
+
+            .typing3 
+                animation: typewriter4 1s steps(8) 20s 1 normal both, blinkCursor4 0.5s steps(2) 20s 5 normal
+            
+        
+
+
+            @keyframes typewriter4
+                from 
+                    width: 0
+                
+
+                to 
+                    width: 37px
+
+
+
+            @keyframes blinkCursor4 
+                from 
+                    border-right-color: rgba(96, 140, 158, 1)
+                
+
+                to 
+                    border-right-color: rgba(96, 140, 158, 0)
+
+        #splash-skills
+            position: absolute
+            top: 340px
+            left: 30px
+            
+            animation: splash1 1s steps(20)  23s 1 normal both
+
+            @keyframes splash1
+                from 
+                    opacity: 0 
+                to 
+                    opacity: 1
