@@ -31,7 +31,7 @@ body .skills-container {
     width: 100vw;
   }
 }
-@media (max-width: 1336px) {
+@media (max-width: 1366px) {
   body .skills-container {
     top: 720px;
     height: 720px;
@@ -51,7 +51,7 @@ body .skills-container .skills-top-section {
     top: 240px;
   }
 }
-@media (max-width: 1336px) {
+@media (max-width: 1366px) {
   body .skills-container .skills-top-section {
     transform: scale(0.8);
     left: 0px;
@@ -114,7 +114,7 @@ body .skills-container .skills-main-section {
     top: 1000px;
   }
 }
-@media (max-width: 1336px) {
+@media (max-width: 1366px) {
   body .skills-container .skills-main-section {
     transform: scale(0.7);
     left: -135px;
